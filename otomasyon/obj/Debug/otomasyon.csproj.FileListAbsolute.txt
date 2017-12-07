@@ -1,0 +1,14 @@
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\bin\Debug\otomasyon.exe.config
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\bin\Debug\otomasyon.exe
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\bin\Debug\otomasyon.pdb
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.csprojResolveAssemblyReference.cache
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.Form1.resources
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.Properties.Resources.resources
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.csproj.GenerateResource.Cache
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.exe
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.pdb
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.yerleske.resources
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.Form2.resources
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.Form3.resources
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.mahkum_sil.resources
+C:\Users\YAKAN-PC\Desktop\otomasyon\otomasyon\obj\Debug\otomasyon.Cagir.resources
