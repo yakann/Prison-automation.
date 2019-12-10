@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace otomasyon
 {
-    public partial class Form3 : Form
+    public partial class ana_ekran : Form
     {
-        public Form3()
+        public ana_ekran()
         {
             InitializeComponent();
         }
 
         private void yeni_uye_Click(object sender, EventArgs e)
         {
-            Form1 f2 = new Form1();
+            mahkum_kaydet f2 = new mahkum_kaydet();
             f2.Show();
         }
 
@@ -31,7 +31,7 @@ namespace otomasyon
         private void cikis_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 fl = new Form2();
+            login fl = new login();
             fl.Show();
         }
         private void Form3_FormClosing(object sender, FormClosingEventArgs e)

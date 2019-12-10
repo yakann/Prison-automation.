@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace otomasyon
 {
@@ -19,13 +20,11 @@ namespace otomasyon
         }
 
         SqlConnection baglanti = new SqlConnection(@"Data Source =.; Initial Catalog = hapis; Integrated Security = True");
-
         private void Cagir_Load(object sender, EventArgs e)
         {
 
         }
-        
-        
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -35,14 +34,19 @@ namespace otomasyon
                     baglanti.Open();
                     // Bağlantımızı kontrol ediyoruz, eğer kapalıysa açıyoruz.
                     string sorgu = "SELECT * FROM kisi_bilgileri,ceza_bilgisi,adres_tablosu,kan_tablosu,yer_bilgisi WHERE tc_no =  "+ textBox1.Text +"  and kisi_bilgileri.dosya_no = ceza_bilgisi.dosya_no and kisi_bilgileri.yatak_id = yer_bilgisi.yatak_id and kisi_bilgileri.adres_id = adres_tablosu.adres_id and kisi_bilgileri.k_id = kan_tablosu.k_id" ;
-
                     // müşteriler tablomuzun ilgili alanlarına kayıt ekleme işlemini gerçekleştirecek sorgumuz.
                     SqlCommand komut = new SqlCommand(sorgu, baglanti);
+                    Image uyeResim = null;
                     //Sorgumuzu ve baglantimizi parametre olarak alan bir SqlCommand nesnesi oluşturuyoruz.
                     SqlDataReader cikti = komut.ExecuteReader();
                     if (cikti.Read())
                     {
                         // resim getirme : http://www.yazgelistir.com/makale/csharp-veritabanina-resim-kayit-ve-getirme-islemi-1
+                        byte[] resim = (byte[])cikti[0];
+                        MemoryStream ms = new MemoryStream(resim, 0, resim.Length);
+                        ms.Write(resim, 0, resim.Length);
+                        uyeResim = Image.FromStream(ms,true);
+                        pictureBox1.Image = uyeResim;
 
                         textBox2.Text = cikti["isim"].ToString();
                         textBox3.Text = cikti["soyisim"].ToString();
@@ -60,7 +64,6 @@ namespace otomasyon
                         textBox16.Text = cikti["yatak_no"].ToString();
 
                         textBox5.Text = cikti["kisi_bilgisi"].ToString();
-
                         string deger = cikti["ceza_bitis"].ToString();
                         string[] parcalar = deger.Split(' ');
                         // Doğum tarihi

@@ -1,6 +1,6 @@
 ﻿namespace otomasyon
 {
-    partial class Form1
+    partial class mahkum_kaydet
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mahkum_kaydet));
             this.adi = new System.Windows.Forms.TextBox();
             this.soyadi = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -70,7 +71,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.kisibilgi = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -106,18 +106,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(351, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 13);
+            this.label1.Size = new System.Drawing.Size(27, 14);
             this.label1.TabIndex = 3;
             this.label1.Text = "Adı :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(351, 96);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.Size = new System.Drawing.Size(41, 14);
             this.label2.TabIndex = 4;
             this.label2.Text = "Soyadı :";
             // 
@@ -136,7 +138,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.label18);
+            this.tabPage1.BackColor = System.Drawing.Color.RosyBrown;
             this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Controls.Add(this.dateTimePicker3);
             this.tabPage1.Controls.Add(this.tc_no);
@@ -150,14 +152,14 @@
             this.tabPage1.Size = new System.Drawing.Size(468, 159);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Kişisel Bilgiler";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(259, 108);
+            this.label16.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(259, 91);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(34, 13);
+            this.label16.Size = new System.Drawing.Size(30, 14);
             this.label16.TabIndex = 7;
             this.label16.Text = "YAŞ :";
             // 
@@ -188,32 +190,36 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(259, 18);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 13);
+            this.label5.Size = new System.Drawing.Size(74, 14);
             this.label5.TabIndex = 2;
             this.label5.Text = "Doğum Tarihi :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(6, 91);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 13);
+            this.label4.Size = new System.Drawing.Size(76, 14);
             this.label4.TabIndex = 1;
             this.label4.Text = "T.C. Kimlik No :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(6, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 13);
+            this.label3.Size = new System.Drawing.Size(88, 14);
             this.label3.TabIndex = 0;
             this.label3.Text = "Dosya Numarası :";
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.Goldenrod;
             this.tabPage2.Controls.Add(this.label17);
             this.tabPage2.Controls.Add(this.tel_no);
             this.tabPage2.Controls.Add(this.dogum_yeri);
@@ -226,22 +232,22 @@
             this.tabPage2.Size = new System.Drawing.Size(468, 159);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "İletişim Bilgileri";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(266, 16);
+            this.label17.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(258, 16);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(68, 13);
+            this.label17.Size = new System.Drawing.Size(65, 14);
             this.label17.TabIndex = 4;
             this.label17.Text = "Doğum Yeri :";
             // 
             // tel_no
             // 
-            this.tel_no.Location = new System.Drawing.Point(122, 13);
+            this.tel_no.Location = new System.Drawing.Point(108, 13);
             this.tel_no.Name = "tel_no";
-            this.tel_no.Size = new System.Drawing.Size(121, 20);
+            this.tel_no.Size = new System.Drawing.Size(129, 20);
             this.tel_no.TabIndex = 3;
             this.tel_no.TextChanged += new System.EventHandler(this.tel_no_TextChanged);
             // 
@@ -330,7 +336,7 @@
             "Kilis",
             "Osmaniye",
             "Düzce"});
-            this.dogum_yeri.Location = new System.Drawing.Point(340, 13);
+            this.dogum_yeri.Location = new System.Drawing.Point(341, 13);
             this.dogum_yeri.Name = "dogum_yeri";
             this.dogum_yeri.Size = new System.Drawing.Size(121, 21);
             this.dogum_yeri.TabIndex = 2;
@@ -420,31 +426,34 @@
             "Kilis",
             "Osmaniye",
             "Düzce"});
-            this.adres.Location = new System.Drawing.Point(122, 64);
+            this.adres.Location = new System.Drawing.Point(108, 64);
             this.adres.Name = "adres";
-            this.adres.Size = new System.Drawing.Size(121, 21);
+            this.adres.Size = new System.Drawing.Size(129, 21);
             this.adres.TabIndex = 2;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(74, 67);
+            this.label7.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(6, 67);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 13);
+            this.label7.Size = new System.Drawing.Size(42, 14);
             this.label7.TabIndex = 1;
             this.label7.Text = "Adresi :";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 16);
+            this.label6.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 16);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 13);
+            this.label6.Size = new System.Drawing.Size(93, 14);
             this.label6.TabIndex = 0;
             this.label6.Text = "Telefon Numarası :";
             // 
             // tabPage3
             // 
+            this.tabPage3.BackColor = System.Drawing.Color.RoyalBlue;
             this.tabPage3.Controls.Add(this.dateTimePicker2);
             this.tabPage3.Controls.Add(this.dateTimePicker1);
             this.tabPage3.Controls.Add(this.cezasure);
@@ -457,7 +466,6 @@
             this.tabPage3.Size = new System.Drawing.Size(468, 159);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Kurumsal Bilgi";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // dateTimePicker2
             // 
@@ -483,32 +491,36 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(17, 83);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(88, 13);
+            this.label10.Size = new System.Drawing.Size(87, 14);
             this.label10.TabIndex = 2;
             this.label10.Text = "Ceza Bitiş Tarihi :";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(17, 47);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(115, 13);
+            this.label9.Size = new System.Drawing.Size(112, 14);
             this.label9.TabIndex = 1;
             this.label9.Text = "Ceza Başlangıç Tarihi :";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(17, 14);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 13);
+            this.label8.Size = new System.Drawing.Size(65, 14);
             this.label8.TabIndex = 0;
             this.label8.Text = "Ceza Süresi :";
             // 
             // tabPage4
             // 
+            this.tabPage4.BackColor = System.Drawing.Color.Firebrick;
             this.tabPage4.Controls.Add(this.kangrubu);
             this.tabPage4.Controls.Add(this.kilo);
             this.tabPage4.Controls.Add(this.boy);
@@ -521,7 +533,6 @@
             this.tabPage4.Size = new System.Drawing.Size(468, 159);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Fiziksel Bilgiler";
-            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // kangrubu
             // 
@@ -533,12 +544,13 @@
             "A Rh-",
             "B Rh+",
             "B Rh-",
-            "O Rh+",
-            "O Rh-"});
+            "0 Rh+",
+            "0 Rh-"});
             this.kangrubu.Location = new System.Drawing.Point(301, 17);
             this.kangrubu.Name = "kangrubu";
             this.kangrubu.Size = new System.Drawing.Size(132, 21);
             this.kangrubu.TabIndex = 5;
+            this.kangrubu.SelectedIndexChanged += new System.EventHandler(this.kangrubu_SelectedIndexChanged_1);
             // 
             // kilo
             // 
@@ -557,32 +569,36 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(231, 20);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(64, 13);
+            this.label13.Size = new System.Drawing.Size(63, 14);
             this.label13.TabIndex = 2;
             this.label13.Text = "Kan Grubu :";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(17, 63);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(30, 13);
+            this.label12.Size = new System.Drawing.Size(30, 14);
             this.label12.TabIndex = 1;
             this.label12.Text = "Kilo :";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(17, 20);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(31, 13);
+            this.label11.Size = new System.Drawing.Size(29, 14);
             this.label11.TabIndex = 0;
             this.label11.Text = "Boy :";
             // 
             // tabPage5
             // 
+            this.tabPage5.BackColor = System.Drawing.Color.Yellow;
             this.tabPage5.Controls.Add(this.label15);
             this.tabPage5.Controls.Add(this.button2);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
@@ -591,14 +607,14 @@
             this.tabPage5.Size = new System.Drawing.Size(468, 159);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Yerleşke";
-            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(234, 71);
+            this.label15.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(219, 71);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(52, 13);
+            this.label15.Size = new System.Drawing.Size(54, 14);
             this.label15.TabIndex = 1;
             this.label15.Text = "Yer Bilgisi";
             this.label15.Click += new System.EventHandler(this.label15_Click);
@@ -624,11 +640,12 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(347, 561);
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(769, 550);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(240, 35);
+            this.button1.Size = new System.Drawing.Size(57, 56);
             this.button1.TabIndex = 8;
-            this.button1.Text = "BİLGİLERİ KAYDET";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -637,32 +654,25 @@
             this.kisibilgi.Location = new System.Drawing.Point(26, 378);
             this.kisibilgi.Multiline = true;
             this.kisibilgi.Name = "kisibilgi";
-            this.kisibilgi.Size = new System.Drawing.Size(800, 166);
+            this.kisibilgi.Size = new System.Drawing.Size(804, 166);
             this.kisibilgi.TabIndex = 9;
             // 
             // button3
             // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button3.Location = new System.Drawing.Point(26, 45);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(300, 300);
             this.button3.TabIndex = 10;
-            this.button3.Text = "Resim Ekle";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(350, 125);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 13);
-            this.label18.TabIndex = 8;
-            this.label18.Text = "label18";
-            // 
-            // Form1
+            // mahkum_kaydet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSalmon;
             this.ClientSize = new System.Drawing.Size(851, 608);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.kisibilgi);
@@ -674,8 +684,11 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.soyadi);
             this.Controls.Add(this.adi);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.Name = "mahkum_kaydet";
+            this.Text = "Mahkum Kaydet";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
@@ -738,7 +751,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.ComboBox dogum_yeri;
         public System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label18;
     }
 }
 

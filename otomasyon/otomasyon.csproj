@@ -53,23 +53,25 @@
     <Compile Include="Cagir.Designer.cs">
       <DependentUpon>Cagir.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Database.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="mahkum_kaydet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="mahkum_kaydet.Designer.cs">
+      <DependentUpon>mahkum_kaydet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="ana_ekran.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="ana_ekran.Designer.cs">
+      <DependentUpon>ana_ekran.cs</DependentUpon>
     </Compile>
     <Compile Include="mahkum_sil.cs">
       <SubType>Form</SubType>
@@ -79,6 +81,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserProvider.cs" />
     <Compile Include="yerleske.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,14 +91,14 @@
     <EmbeddedResource Include="Cagir.resx">
       <DependentUpon>Cagir.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="mahkum_kaydet.resx">
+      <DependentUpon>mahkum_kaydet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="ana_ekran.resx">
+      <DependentUpon>ana_ekran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mahkum_sil.resx">
       <DependentUpon>mahkum_sil.cs</DependentUpon>
